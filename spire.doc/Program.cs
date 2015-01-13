@@ -24,7 +24,7 @@ namespace spire.doc
                     timer.Start();
                     document.LoadFromFile(@"C:\Users\hector\Documents\visual studio 2013\Projects\spire.doc\spire.doc\bin\Debug\doc.docx");
                     Console.WriteLine("open file: " + timer.ElapsedMilliseconds);
-                    
+                    //lalalala
                     timer.Restart();
                     document.Replace("##lala##", "garbage..!!!#$%&()", true, true);
                     Console.WriteLine("replace: " + timer.ElapsedMilliseconds);
